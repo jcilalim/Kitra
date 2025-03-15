@@ -1,0 +1,33 @@
+{
+  "name": "kitra",
+  "version": "1.0.0",
+  "description": "Kitra is a game where users can collect treasures in a given latitude and longitude.",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_NO_WARNINGS=1  nodemon app",
+    "seeder_import": "NODE_NO_WARNINGS=1 node seeder.js -i",
+    "seeder_delete": "NODE_NO_WARNINGS=1 node seeder.js -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcilalim/Kitra.git"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "John Christopher Ilalim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcilalim/Kitra/issues"
+  },
+  "homepage": "https://github.com/jcilalim/Kitra#readme",
+  "dependencies": {
+    "@colors/colors": "^1.6.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "geolib": "^3.3.4",
+    "mysql2": "^3.13.0",
+    "nodemon": "^3.1.9",
+    "sequelize": "^6.37.6"
+  }
+}
